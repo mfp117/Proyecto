@@ -450,11 +450,11 @@ footer {
                
     }
 
-    .prueba {
+    .listaNav {
         transition: 1s;
     }
 
-    .prueba:hover {
+    .listaNav:hover {
         
         font-size: x-large;
 
