@@ -128,30 +128,11 @@ h2 {
     justify-items: center;
 }
 
-/* --------------------main-secciones------------------------ */
-
-.main-secciones {
-    width: 100%;
-    height: 100%;
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.pSecciones {
-    width: 50%;
-    font-size: 155%;
-
-}
-
 /* --------------------Footer------------------------ */
 
 footer {
     background-color: black;
-    height: 77vh;
+    height: 84vh;
     margin-top: 5%;
 }
 
@@ -198,6 +179,11 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/* --------------------Seccionnosotros------------------------- */
+
+
+
 
 /* --------------------Seccionproductos------------------------- */
 
@@ -255,12 +241,60 @@ footer {
     width: 70%;
 }
 
+.btn-toolbar{
+    justify-content: center;
+    margin-top: 5%;
+}
+
 /* --------------------Formulario------------------------- */
 .formulario {
-    margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-left: 0%;
     margin-top: 5%;
-    padding: 17%;
+    padding: 2%;
+    background-image: url(../imagenes/fondo1.jpg);
+
+
 }
+
+.formulario p {
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    margin-left: 26%;
+}
+
+.input_name {
+    width: 82%;
+}
+
+.input_email {
+    width: 82%;
+}
+
+.input_telefono {
+    width: 82%;
+}
+
+.formulario input {
+    margin-left: 10%;
+
+
+}
+
+.formulario textarea {
+    margin-left: 13%;
+
+}
+
+.formulario button {
+    margin-left: 36%;
+}
+
 
 
 
@@ -393,15 +427,60 @@ footer {
         justify-content: center;
     }
 
+    /* --------------------Formulario------------------------- */
+
     .formulario {
-        margin-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 0%;
         margin-top: 5%;
-        padding: 17%;
+        padding: 2%;
+        background-image: url(../imagenes/fondo1.jpg);
+
+
+    }
+
+    .formulario p {
+        font-size: x-large;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        color: aliceblue;
+        margin-left: 31%;
+    }
+
+    .input_name {
+        width: 82%;
+    }
+
+    .input_email {
+        width: 82%;
+    }
+
+    .input_telefono {
+        width: 82%;
+    }
+
+    .formulario input {
+        margin-left: 10%;
+
+
+    }
+
+    .formulario textarea {
+        margin-left: 25%;
+
+    }
+
+    .formulario button {
+        margin-left: 40%;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
+    
     /* desktop*/
 
     /* --------------------Header------------------------- */
@@ -447,7 +526,7 @@ footer {
     a {
         text-decoration: none;
         color: white;
-               
+
     }
 
     .listaNav {
@@ -455,8 +534,9 @@ footer {
     }
 
     .listaNav:hover {
-        
+
         font-size: x-large;
+        color: aliceblue;
 
 
     }
@@ -582,31 +662,60 @@ footer {
         width: 90%;
     }
 
-    /* --------------------main-secciones------------------------ */
-
-    .main-secciones {
-        width: 100%;
-        height: 100%;
-        margin-top: 5%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
+    .btn-toolbar{
         justify-content: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 0.5%;
     }
 
-    .pSecciones {
-        width: 45%;
-        font-size: 241%;
-    }
-
+   
     /* --------------------Formulario------------------------- */
 
     .formulario {
-        margin-left: 21%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-left: 0%;
         margin-top: 5%;
-        padding: 17%;
+        padding: 2%;
+        background-image: url(../imagenes/fondo1.jpg);
     }
+
+    .formulario p {
+        font-size: x-large;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: italic;
+        color: aliceblue;
+        margin-left: 46%;
+    }
+
+    .input_name{
+        width: 30%;
+    }
+    
+    .input_email{
+        width: 30%;
+    }
+    
+    .input_telefono{
+        width: 30%; 
+    }
+
+    .formulario input {
+        margin-left: 37%;
+    
+
+    }
+
+    .formulario textarea {
+        margin-left: 43%;
+
+    }
+
+    .formulario button {
+        margin-left: 48%;
+    }
+
 
     /* --------------------Footer------------------------- */
     footer {
