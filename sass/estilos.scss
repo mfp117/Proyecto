@@ -279,12 +279,17 @@ h2 {
   margin-left: 13%;
 }
 
-.soporte_tecnico article {
+.soporte_article {
   margin-top: 4%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   text-align: center;
+}
+
+.soporte_tecnico article {
+ @extend .soporte_article;
+ text-shadow: 2px 2px 4px black;
 }
 
 .titulo_mp {
@@ -324,11 +329,8 @@ h2 {
 }
 
 .mantenimiento_preventivo article {
-  margin-top: 4%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-align: center;
+  @extend .soporte_article;
+  text-shadow: 2px 2px 4px red;
 }
 
 .titulo_hardware {
@@ -369,11 +371,8 @@ h2 {
 }
 
 .hardware article {
-  margin-top: 4%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-align: center;
+  @extend .soporte_article;
+  text-shadow: 2px 2px 4px blue
 }
 
 .boton_contacto {
@@ -499,12 +498,11 @@ h2 {
   /*Tablet*/
   /* --------------------Header------------------------- */
 
-  .redesSociales {
-    display: flex;
-    flex-direction: row;
-    margin-top: 7%;
-    width: 131%;
-  }
+  @include header_tablet();
+
+  /* --------------------Footer------------------------- */
+
+  @include footer_tablet ();
 
   /* --------------------Sectioninfo------------------------- */
 
@@ -539,8 +537,6 @@ h2 {
     text-align: left;
     width: 183%;
   }
-
-  /* --------------------Footer------------------------- */
 
   /* --------------------Seccionnosotros------------------------- */
 
@@ -914,7 +910,13 @@ h2 {
   /* desktop*/
 
   /* --------------------Header------------------------- */
+ 
+  @include header_desktop();
 
+  /* --------------------Footer------------------------- */
+
+  @include footer_desktop ();
+ 
   /* --------------------Info------------------------- */
   .info {
     display: grid;

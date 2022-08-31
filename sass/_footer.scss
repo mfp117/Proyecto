@@ -71,9 +71,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 600px) {
-  /*Tablet*/
-
+@mixin footer_tablet {
   footer {
     background-color: black;
     height: 49vh;
@@ -121,9 +119,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  /* desktop*/
-
+@mixin footer_desktop {
   footer {
     display: flex;
     flex-direction: row;
@@ -169,14 +165,12 @@ footer {
       width: 100%;
       justify-content: flex-start;
       padding-top: 8%;
-   
+
       li {
         display: flex;
         font-size: 100%;
       }
-   
     }
-
-    
   }
 }
+
