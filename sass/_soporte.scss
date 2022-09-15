@@ -1,0 +1,541 @@
+.inicio_serv {
+    background-image: url(../imagenes/fondo.png);
+    height: 10vh;
+    margin-top: 3%;
+  }
+  
+  .inicio_serv p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 22%;
+    padding-top: 4%;
+  }
+  
+  .titulo_st {
+    display: flex;
+    flex-direction: row;
+    width: 82vw;
+    background-color: gainsboro;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 9%;
+    border: solid 1px black;
+  }
+  
+  .titulo_st p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 6%;
+  }
+  
+  .titulo_st img {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .soporte_tecnico {
+    margin-top: 7%;
+  }
+  
+  .soporte_tecnico img {
+    width: 75%;
+    height: 244px;
+    margin-left: 13%;
+  }
+  
+  .soporte_article {
+    margin-top: 4%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .soporte_tecnico article {
+   @extend .soporte_article;
+   text-shadow: 2px 2px 4px black;
+  }
+  
+  .titulo_mp {
+    display: flex;
+    flex-direction: row;
+    width: 82vw;
+    background-color: gainsboro;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 9%;
+    border: solid 1px black;
+  }
+  
+  .titulo_mp p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 6%;
+  }
+  
+  .titulo_mp img {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .mantenimiento_preventivo {
+    margin-top: 7%;
+  }
+  
+  .mantenimiento_preventivo img {
+    width: 75%;
+    height: 244px;
+    margin-left: 13%;
+  }
+  
+  .mantenimiento_preventivo article {
+    @extend .soporte_article;
+    text-shadow: 2px 2px 4px red;
+  }
+  
+  .titulo_hardware {
+    display: flex;
+    flex-direction: row;
+    width: 82vw;
+    background-color: gainsboro;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    align-items: center;
+    margin-left: 9%;
+    border: solid 1px black;
+  }
+  
+  .titulo_hardware p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 6%;
+    margin-bottom: 6%;
+  }
+  
+  .titulo_hardware img {
+    height: 32px;
+    width: 32px;
+  }
+  
+  .hardware {
+    margin-top: 7%;
+  }
+  
+  .hardware img {
+    width: 75%;
+    height: 244px;
+    margin-left: 13%;
+  }
+  
+  .hardware article {
+    @extend .soporte_article;
+    text-shadow: 2px 2px 4px blue
+  }
+  
+  .boton_contacto {
+    margin-left: 33%;
+    margin-top: 5%;
+  }
+  
+  .boton_contacto button {
+    width: 50%;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+  }
+
+  /*-------------------------------Tablet------------------------------------*/
+  
+  @mixin soporte_tablet {
+
+    .inicio_serv {
+      background-image: url(../imagenes/fondo.png);
+      height: 10vh;
+      margin-top: 3%;
+    }
+  
+    .inicio_serv p {
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: xx-large;
+      font-weight: bolder;
+      margin-left: 22%;
+      padding-top: 3%;
+    }
+  
+    .titulo_st {
+      display: flex;
+      flex-direction: row;
+      width: 82vw;
+      background-color: gainsboro;
+      margin-top: 7%;
+      justify-content: space-evenly;
+      vertical-align: middle;
+      align-items: center;
+      margin-left: 9%;
+      border: solid 1px black;
+    }
+  
+    .titulo_st p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: x-large;
+      font-weight: bolder;
+      padding-top: 3%;
+      margin-left: 5%;
+    }
+  
+    .titulo_st img {
+      height: 32px;
+      width: 32px;
+    }
+  
+    .soporte_tecnico {
+      margin-top: 7%;
+    }
+  
+    .soporte_tecnico img {
+      width: 75%;
+      height: 244px;
+      margin-left: 13%;
+    }
+  
+    .soporte_tecnico article {
+      margin-top: 4%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .titulo_mp {
+      display: flex;
+      flex-direction: row;
+      width: 82vw;
+      background-color: gainsboro;
+      margin-top: 7%;
+      justify-content: space-evenly;
+      vertical-align: middle;
+      align-items: center;
+      margin-left: 9%;
+      border: solid 1px black;
+    }
+  
+    .titulo_mp p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: x-large;
+      font-weight: bolder;
+      padding-top: 3%;
+    }
+  
+    .titulo_mp img {
+      height: 32px;
+      width: 32px;
+    }
+  
+    .mantenimiento_preventivo {
+      margin-top: 7%;
+    }
+  
+    .mantenimiento_preventivo img {
+      width: 75%;
+      height: 244px;
+      margin-left: 13%;
+    }
+  
+    .mantenimiento_preventivo article {
+      margin-top: 4%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .titulo_hardware {
+      display: flex;
+      flex-direction: row;
+      width: 82vw;
+      background-color: gainsboro;
+      margin-top: 7%;
+      justify-content: space-evenly;
+      vertical-align: middle;
+      align-items: center;
+      margin-left: 9%;
+      border: solid 1px black;
+    }
+  
+    .titulo_hardware p {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: x-large;
+      font-weight: bolder;
+      padding-top: 5%;
+      margin-left: 17%;
+    }
+  
+    .titulo_hardware img {
+      height: 64px;
+      width: 64px;
+    }
+  
+    .hardware {
+      margin-top: 7%;
+    }
+  
+    .hardware img {
+      width: 75%;
+      height: 244px;
+      margin-left: 13%;
+    }
+  
+    .hardware article {
+      margin-top: 4%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .boton_contacto {
+      margin-left: 35%;
+      margin-top: 5%;
+    }
+  
+    .boton_contacto button {
+      width: 47%;
+      height: 80px;
+      font-size: larger;
+      font-weight: bold;
+      color: white;
+    }
+    
+  }
+
+    /*-------------------------------Desktop------------------------------------*/
+
+    @mixin soporte_desktop {
+
+      .inicio_serv {
+        background-image: url(../imagenes/fondo.png);
+        height: 15vh;
+        margin-top: 3%;
+      }
+    
+      .inicio_serv p {
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: xxx-large;
+        font-weight: bolder;
+        margin-left: 35%;
+        padding-top: 2%;
+      }
+    
+      .titulo_st {
+        display: flex;
+        flex-direction: row;
+        width: 82vw;
+        background-color: gainsboro;
+        margin-top: 7%;
+        justify-content: space-evenly;
+        vertical-align: middle;
+        align-items: center;
+        margin-left: 9%;
+        border: solid 1px black;
+      }
+    
+      .titulo_st p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: xxx-large;
+        font-weight: bolder;
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+      }
+    
+      .titulo_st img {
+        height: 64px;
+        width: 64px;
+      }
+    
+      .soporte_tecnico {
+        display: flex;
+        flex-direction: row;
+        margin-top: 7%;
+        padding-left: 0%;
+        padding-right: 7%;
+      }
+    
+      .soporte_tecnico img {
+        width: 600px;
+        height: 526px;
+        margin-left: 12%;
+      }
+    
+      .soporte_tecnico article {
+        margin-top: 4.5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 800;
+        text-align: justify;
+        margin-right: 4%;
+        padding-left: 2%;
+        padding-bottom: 4%;
+      }
+    
+      .titulo_mp {
+        display: flex;
+        flex-direction: row;
+        width: 82vw;
+        background-color: gainsboro;
+        margin-top: 7%;
+        justify-content: space-evenly;
+        vertical-align: middle;
+        align-items: center;
+        margin-left: 9%;
+        border: solid 1px black;
+      }
+    
+      .titulo_mp p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: xxx-large;
+        font-weight: bolder;
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+      }
+    
+      .titulo_mp img {
+        height: 64px;
+        width: 64px;
+      }
+    
+      .mantenimiento_preventivo {
+        display: flex;
+        flex-direction: row;
+        margin-top: 7%;
+        padding-left: 0%;
+        padding-right: 7%;
+      }
+    
+      .mantenimiento_preventivo img {
+        width: 600px;
+        height: 526px;
+        margin-left: 12%;
+      }
+    
+      .mantenimiento_preventivo article {
+        margin-top: 6%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 800;
+        text-align: justify;
+        margin-right: 4%;
+        padding-left: 2%;
+        padding-bottom: 4%;
+      }
+    
+      .titulo_hardware {
+        display: flex;
+        flex-direction: row;
+        width: 82vw;
+        background-color: gainsboro;
+        margin-top: 7%;
+        justify-content: space-evenly;
+        vertical-align: middle;
+        align-items: center;
+        margin-left: 9%;
+        border: solid 1px black;
+      }
+    
+      .titulo_hardware p {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: xxx-large;
+        font-weight: bolder;
+        padding-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+      }
+    
+      .titulo_hardware img {
+        height: 64px;
+        width: 64px;
+      }
+    
+      .hardware {
+        display: flex;
+        flex-direction: row;
+        margin-top: 7%;
+        padding-left: 0%;
+        padding-right: 7%;
+      }
+    
+      .hardware img {
+        width: 600px;
+        height: 526px;
+        margin-left: 12%;
+      }
+    
+      .hardware article {
+        margin-top: 7%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 800;
+        text-align: justify;
+        margin-right: 4%;
+        padding-left: 2%;
+        padding-bottom: 4%;
+      }
+    
+      .boton_contacto {
+        margin-left: 43%;
+        margin-top: 5%;
+      }
+    
+      .boton_contacto button {
+        width: 20%;
+        height: 80px;
+        font-size: larger;
+        font-weight: bold;
+        color: white;
+      }
+    
+      
+    }
