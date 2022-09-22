@@ -1,4 +1,167 @@
+.inicio_con {
+  background-image: url(../imagenes/fondo.png);
+  height: 10vh;
+  margin-top: 3%;
+}
+
+.contacto_title {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 37%;
+  padding-top: 4%;
+}
+
 .formulario {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.formulario p {
+  font-size: x-large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: italic;
+  color: aliceblue;
+  margin-left: 26%;
+}
+
+.input_name {
+  width: 82%;
+}
+
+.input_email {
+  width: 82%;
+}
+
+.input_telefono {
+  width: 82%;
+}
+
+.formulario input {
+  margin-left: 10%;
+}
+
+.formulario textarea {
+  margin-left: 12%;
+}
+
+.boton_form {
+  margin-left: 32%;
+  margin-top: 5%;
+
+  button {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+  }
+
+.btn-warning{
+  background-color: orange;
+}
+
+}
+
+/*-------------------------------Tablet------------------------------------*/
+
+@mixin contacto_tablet {
+  .inicio_con {
+    background-image: url(../imagenes/fondo.png);
+    height: 10vh;
+    margin-top: 3%;
+  }
+  
+  .contacto_title {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 41%;
+    padding-top: 4%;
+  }
+ 
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding: 2%;
+    background-image: url(../imagenes/fondo1.jpg);
+  }
+
+  .formulario p {
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    margin-left: 31%;
+  }
+
+  .input_name {
+    width: 82%;
+  }
+
+  .input_email {
+    width: 82%;
+  }
+
+  .input_telefono {
+    width: 82%;
+  }
+
+  .formulario input {
+    margin-left: 10%;
+  }
+
+  .formulario textarea {
+    margin-left: 25%;
+  }
+
+  .boton_form {
+    margin-left: 37%;
+    margin-top: 5%;
+  
+    button {
+      font-size: larger;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
+/*-------------------------------Desktop------------------------------------*/
+
+@mixin contacto_desktop {
+  .inicio_con {
+    background-image: url(../imagenes/fondo.png);
+    height: 10vh;
+    margin-top: 3%;
+  }
+  
+  .contacto_title {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin-left: 46%;
+    padding-top: 0.5%;
+  }
+  
+  .formulario {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -9,138 +172,44 @@
     background-image: url(../imagenes/fondo1.jpg);
   }
   
+
   .formulario p {
     font-size: x-large;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
     font-style: italic;
     color: aliceblue;
-    margin-left: 26%;
+    margin-left: 46%;
   }
-  
+
   .input_name {
-    width: 82%;
+    width: 30%;
   }
-  
+
   .input_email {
-    width: 82%;
+    width: 30%;
   }
-  
+
   .input_telefono {
-    width: 82%;
+    width: 30%;
   }
-  
+
   .formulario input {
-    margin-left: 10%;
+    margin-left: 37%;
   }
-  
+
   .formulario textarea {
-    margin-left: 12%;
+    margin-left: 43%;
   }
-  
+
   .formulario button {
-    margin-left: 36%;
+    margin-left: 48%;
   }
 
-  /*-------------------------------Tablet------------------------------------*/
+  .boton_form {
+    margin-left: 47%;
+    margin-top: 5%;
+}
 
-  @mixin contacto_tablet {
-    
-    .formulario {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 100%;
-      margin-left: 0%;
-      margin-top: 5%;
-      padding: 2%;
-      background-image: url(../imagenes/fondo1.jpg);
-    }
-  
-    .formulario p {
-      font-size: x-large;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
-      font-style: italic;
-      color: aliceblue;
-      margin-left: 31%;
-    }
-  
-    .input_name {
-      width: 82%;
-    }
-  
-    .input_email {
-      width: 82%;
-    }
-  
-    .input_telefono {
-      width: 82%;
-    }
-  
-    .formulario input {
-      margin-left: 10%;
-    }
-  
-    .formulario textarea {
-      margin-left: 25%;
-    }
-  
-    .formulario button {
-      margin-left: 40%;
-    }
-  
-  }
-
-  /*-------------------------------Desktop------------------------------------*/
-
-  @mixin contacto_desktop {
-    
-    .formulario {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 100%;
-      margin-left: 0%;
-      margin-top: 5%;
-      padding: 2%;
-      background-image: url(../imagenes/fondo1.jpg);
-    }
-  
-    .formulario p {
-      font-size: x-large;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
-      font-style: italic;
-      color: aliceblue;
-      margin-left: 46%;
-    }
-  
-    .input_name {
-      width: 30%;
-    }
-  
-    .input_email {
-      width: 30%;
-    }
-  
-    .input_telefono {
-      width: 30%;
-    }
-  
-    .formulario input {
-      margin-left: 37%;
-    }
-  
-    .formulario textarea {
-      margin-left: 43%;
-    }
-  
-    .formulario button {
-      margin-left: 48%;
-    }
-
-  }
-  
+}

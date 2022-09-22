@@ -58,11 +58,6 @@
     text-align: center;
   }
   
-  .soporte_tecnico article {
-   @extend .soporte_article;
-   text-shadow: 2px 2px 4px black;
-  }
-  
   .titulo_mp {
     display: flex;
     flex-direction: row;
@@ -97,11 +92,6 @@
     width: 75%;
     height: 244px;
     margin-left: 13%;
-  }
-  
-  .mantenimiento_preventivo article {
-    @extend .soporte_article;
-    text-shadow: 2px 2px 4px red;
   }
   
   .titulo_hardware {
@@ -141,12 +131,7 @@
     margin-left: 13%;
   }
   
-  .hardware article {
-    @extend .soporte_article;
-    text-shadow: 2px 2px 4px blue
-  }
-  
-  .boton_contacto {
+ .boton_contacto {
     margin-left: 33%;
     margin-top: 5%;
   }
@@ -331,6 +316,7 @@
       font-size: larger;
       font-weight: bold;
       color: white;
+      background-color: orange;
     }
     
   }
