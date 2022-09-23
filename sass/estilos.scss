@@ -20,23 +20,23 @@
 
   /* --------------------Footer------------------------- */
 
-  @include footer_tablet ();
+  @include footer_tablet();
 
   /* --------------------index------------------------- */
 
-  @include inicio_tablet ();
+  @include inicio_tablet();
 
   /* --------------------Nosotros------------------------- */
 
-  @include nosotros_tablet ();
+  @include nosotros_tablet();
 
   /* --------------------Soporte------------------------- */
 
-  @include soporte_tablet ();
+  @include soporte_tablet();
 
   /* --------------------Contacto------------------------- */
   
-  @include contacto_tablet
+  @include contacto_tablet();
   
 }
 
@@ -56,11 +56,11 @@
   
   /* --------------------Nosotros------------------------- */
 
-  @include nosotros_desktop (); 
+  @include nosotros_desktop(); 
 
    /* --------------------Soporte------------------------- */
 
-  @include soporte_desktop ();
+  @include soporte_desktop();
  
   /* --------------------Productos------------------------- */
   
@@ -68,7 +68,7 @@
 
   /* --------------------Contacto------------------------- */
 
-  @include contacto_desktop ();
+  @include contacto_desktop();
   
  
 
