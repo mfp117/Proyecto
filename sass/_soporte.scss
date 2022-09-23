@@ -18,13 +18,13 @@
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   
   .titulo_st p {
@@ -33,6 +33,7 @@
     font-size: large;
     font-weight: bolder;
     padding-top: 6%;
+    color: orange;
   }
   
   .titulo_st img {
@@ -54,21 +55,22 @@
     margin-top: 4%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
+    color: grey;
   }
   
   .titulo_mp {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   
   .titulo_mp p {
@@ -77,6 +79,7 @@
     font-size: large;
     font-weight: bolder;
     padding-top: 6%;
+    color: orange;
   }
   
   .titulo_mp img {
@@ -98,13 +101,13 @@
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   
   .titulo_hardware p {
@@ -114,6 +117,7 @@
     font-weight: bolder;
     padding-top: 6%;
     margin-bottom: 6%;
+    color: orange;
   }
   
   .titulo_hardware img {
@@ -169,13 +173,13 @@
       display: flex;
       flex-direction: row;
       width: 82vw;
-      background-color: gainsboro;
+      background-color: #001d3d;
       margin-top: 7%;
       justify-content: space-evenly;
       vertical-align: middle;
       align-items: center;
       margin-left: 9%;
-      border: solid 1px black;
+      border: solid 3px orange;
     }
   
     .titulo_st p {
@@ -208,7 +212,7 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       text-align: center;
     }
   
@@ -216,13 +220,13 @@
       display: flex;
       flex-direction: row;
       width: 82vw;
-      background-color: gainsboro;
+      background-color: #001d3d;
       margin-top: 7%;
       justify-content: space-evenly;
       vertical-align: middle;
       align-items: center;
       margin-left: 9%;
-      border: solid 1px black;
+      border: solid 3px orange;
     }
   
     .titulo_mp p {
@@ -232,6 +236,7 @@
       font-size: x-large;
       font-weight: bolder;
       padding-top: 3%;
+      color: orange;
     }
   
     .titulo_mp img {
@@ -254,7 +259,7 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       text-align: center;
     }
   
@@ -262,13 +267,13 @@
       display: flex;
       flex-direction: row;
       width: 82vw;
-      background-color: gainsboro;
+      background-color: #001d3d;
       margin-top: 7%;
       justify-content: space-evenly;
       vertical-align: middle;
       align-items: center;
       margin-left: 9%;
-      border: solid 1px black;
+      border: solid 3px orange;
     }
   
     .titulo_hardware p {
@@ -279,6 +284,7 @@
       font-weight: bolder;
       padding-top: 5%;
       margin-left: 17%;
+      color: orange;
     }
   
     .titulo_hardware img {
@@ -301,7 +307,7 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       text-align: center;
     }
   
@@ -346,13 +352,13 @@
         display: flex;
         flex-direction: row;
         width: 82vw;
-        background-color: gainsboro;
+        background-color: #001d3d;
         margin-top: 7%;
         justify-content: space-evenly;
         vertical-align: middle;
         align-items: center;
         margin-left: 9%;
-        border: solid 1px black;
+        border: solid 3px orange;
       }
     
       .titulo_st p {
@@ -365,6 +371,7 @@
         margin-left: 5%;
         margin-bottom: 1%;
         margin-top: 1%;
+        color: orange;
       }
     
       .titulo_st img {
@@ -391,24 +398,25 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
-        font-weight: 800;
+        font-weight: 500;
         text-align: justify;
         margin-right: 4%;
         padding-left: 2%;
         padding-bottom: 4%;
+        color: grey;
       }
     
       .titulo_mp {
         display: flex;
         flex-direction: row;
         width: 82vw;
-        background-color: gainsboro;
+        background-color: #001d3d;
         margin-top: 7%;
         justify-content: space-evenly;
         vertical-align: middle;
         align-items: center;
         margin-left: 9%;
-        border: solid 1px black;
+        border: solid 3px orange;
       }
     
       .titulo_mp p {
@@ -421,6 +429,7 @@
         margin-left: 5%;
         margin-bottom: 1%;
         margin-top: 1%;
+        color: orange;
       }
     
       .titulo_mp img {
@@ -447,24 +456,25 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
-        font-weight: 800;
+        font-weight: 500;
         text-align: justify;
         margin-right: 4%;
         padding-left: 2%;
         padding-bottom: 4%;
+        color: grey;
       }
     
       .titulo_hardware {
         display: flex;
         flex-direction: row;
         width: 82vw;
-        background-color: gainsboro;
+        background-color: #001d3d;
         margin-top: 7%;
         justify-content: space-evenly;
         vertical-align: middle;
         align-items: center;
         margin-left: 9%;
-        border: solid 1px black;
+        border: solid 3px orange;
       }
     
       .titulo_hardware p {
@@ -477,6 +487,7 @@
         margin-left: 5%;
         margin-bottom: 1%;
         margin-top: 1%;
+        color: orange;
       }
     
       .titulo_hardware img {
@@ -503,11 +514,12 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
           sans-serif;
-        font-weight: 800;
+        font-weight: 500;
         text-align: justify;
         margin-right: 4%;
         padding-left: 2%;
         padding-bottom: 4%;
+        color: grey;
       }
     
       .boton_contacto {

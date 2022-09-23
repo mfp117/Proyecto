@@ -545,13 +545,13 @@ footer .logo_siFooter {
   display: flex;
   flex-direction: row;
   width: 82vw;
-  background-color: gainsboro;
+  background-color: #001d3d;
   margin-top: 7%;
   justify-content: space-evenly;
   vertical-align: middle;
   align-items: center;
   margin-left: 9%;
-  border: solid 1px black;
+  border: solid 3px orange;
 }
 
 .titulo_st p {
@@ -559,6 +559,7 @@ footer .logo_siFooter {
   font-size: large;
   font-weight: bolder;
   padding-top: 6%;
+  color: orange;
 }
 
 .titulo_st img {
@@ -579,21 +580,22 @@ footer .logo_siFooter {
 .soporte_article {
   margin-top: 4%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
+  color: grey;
 }
 
 .titulo_mp {
   display: flex;
   flex-direction: row;
   width: 82vw;
-  background-color: gainsboro;
+  background-color: #001d3d;
   margin-top: 7%;
   justify-content: space-evenly;
   vertical-align: middle;
   align-items: center;
   margin-left: 9%;
-  border: solid 1px black;
+  border: solid 3px orange;
 }
 
 .titulo_mp p {
@@ -601,6 +603,7 @@ footer .logo_siFooter {
   font-size: large;
   font-weight: bolder;
   padding-top: 6%;
+  color: orange;
 }
 
 .titulo_mp img {
@@ -622,13 +625,13 @@ footer .logo_siFooter {
   display: flex;
   flex-direction: row;
   width: 82vw;
-  background-color: gainsboro;
+  background-color: #001d3d;
   margin-top: 7%;
   justify-content: space-evenly;
   vertical-align: middle;
   align-items: center;
   margin-left: 9%;
-  border: solid 1px black;
+  border: solid 3px orange;
 }
 
 .titulo_hardware p {
@@ -637,6 +640,7 @@ footer .logo_siFooter {
   font-weight: bolder;
   padding-top: 6%;
   margin-bottom: 6%;
+  color: orange;
 }
 
 .titulo_hardware img {
@@ -1279,13 +1283,13 @@ footer .logo_siFooter {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_st p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1309,26 +1313,27 @@ footer .logo_siFooter {
   .soporte_tecnico article {
     margin-top: 4%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
   }
   .titulo_mp {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_mp p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: x-large;
     font-weight: bolder;
     padding-top: 3%;
+    color: orange;
   }
   .titulo_mp img {
     height: 32px;
@@ -1345,20 +1350,20 @@ footer .logo_siFooter {
   .mantenimiento_preventivo article {
     margin-top: 4%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
   }
   .titulo_hardware {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_hardware p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1366,6 +1371,7 @@ footer .logo_siFooter {
     font-weight: bolder;
     padding-top: 5%;
     margin-left: 17%;
+    color: orange;
   }
   .titulo_hardware img {
     height: 64px;
@@ -1382,7 +1388,7 @@ footer .logo_siFooter {
   .hardware article {
     margin-top: 4%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
   }
   .boton_contacto {
@@ -1973,13 +1979,13 @@ footer .logo_siFooter {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_st p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -1989,6 +1995,7 @@ footer .logo_siFooter {
     margin-left: 5%;
     margin-bottom: 1%;
     margin-top: 1%;
+    color: orange;
   }
   .titulo_st img {
     height: 64px;
@@ -2009,23 +2016,24 @@ footer .logo_siFooter {
   .soporte_tecnico article {
     margin-top: 4.5%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     text-align: justify;
     margin-right: 4%;
     padding-left: 2%;
     padding-bottom: 4%;
+    color: grey;
   }
   .titulo_mp {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_mp p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -2035,6 +2043,7 @@ footer .logo_siFooter {
     margin-left: 5%;
     margin-bottom: 1%;
     margin-top: 1%;
+    color: orange;
   }
   .titulo_mp img {
     height: 64px;
@@ -2055,23 +2064,24 @@ footer .logo_siFooter {
   .mantenimiento_preventivo article {
     margin-top: 6%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     text-align: justify;
     margin-right: 4%;
     padding-left: 2%;
     padding-bottom: 4%;
+    color: grey;
   }
   .titulo_hardware {
     display: flex;
     flex-direction: row;
     width: 82vw;
-    background-color: gainsboro;
+    background-color: #001d3d;
     margin-top: 7%;
     justify-content: space-evenly;
     vertical-align: middle;
     align-items: center;
     margin-left: 9%;
-    border: solid 1px black;
+    border: solid 3px orange;
   }
   .titulo_hardware p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -2081,6 +2091,7 @@ footer .logo_siFooter {
     margin-left: 5%;
     margin-bottom: 1%;
     margin-top: 1%;
+    color: orange;
   }
   .titulo_hardware img {
     height: 64px;
@@ -2101,11 +2112,12 @@ footer .logo_siFooter {
   .hardware article {
     margin-top: 7%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
     text-align: justify;
     margin-right: 4%;
     padding-left: 2%;
     padding-bottom: 4%;
+    color: grey;
   }
   .boton_contacto {
     margin-left: 43%;
